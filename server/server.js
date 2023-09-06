@@ -32,7 +32,7 @@ const startApolloServer = async () => {
     app.get('*', (req, res) => {
       res.sendFile(path.join(__dirname, '../client/dist/index.html'));
     });
-  }
+  };
 
   //app.use(routes);
 
@@ -40,6 +40,6 @@ const startApolloServer = async () => {
     app.listen(PORT, () => console.log(`🌍 Now listening on localhost:${PORT}`));
   });
 
-}
+};
 
 startApolloServer();
