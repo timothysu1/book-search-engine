@@ -14,6 +14,8 @@ This is a book search engine that allows the user to search for their desired bo
 * [Git](https://git-scm.com/)
 * [Express](https://expressjs.com/en/guide/routing.html)
 * [React](https://react.dev/learn)
+* [GraphQL](https://graphql.org/learn/)
+* [Apollo](https://www.apollographql.com/docs/apollo-server/)
 
 ## Usage
 The user can travel to the deployed site and create an account using the signup. The User can then search for books and add any of them to their saved books.
